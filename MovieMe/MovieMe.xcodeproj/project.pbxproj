@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4096487F01E8FAECAEC9FE29 /* Pods_MovieMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574DB0EADCF92D033743F43B /* Pods_MovieMe.framework */; };
+		B283349F1C6192D000DF5D99 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283349E1C6192D000DF5D99 /* DetailsViewController.swift */; };
 		B29CADD91C583B3900808AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29CADD81C583B3900808AFF /* AppDelegate.swift */; };
 		B29CADDE1C583B3900808AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29CADDC1C583B3900808AFF /* Main.storyboard */; };
 		B29CADE01C583B3900808AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29CADDF1C583B3900808AFF /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		365247AD37557D2ED709760F /* Pods-MovieMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieMe/Pods-MovieMe.debug.xcconfig"; sourceTree = "<group>"; };
 		574DB0EADCF92D033743F43B /* Pods_MovieMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B283349E1C6192D000DF5D99 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		B29CADD51C583B3900808AFF /* MovieMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29CADD81C583B3900808AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B29CADDD1C583B3900808AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B29CADEC1C58436A00808AFF /* MovieCell.swift */,
+				B283349E1C6192D000DF5D99 /* DetailsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				B29CADD91C583B3900808AFF /* AppDelegate.swift in Sources */,
 				B29CADEB1C583BA800808AFF /* MovieViewController.swift in Sources */,
 				B29CADED1C58436A00808AFF /* MovieCell.swift in Sources */,
+				B283349F1C6192D000DF5D99 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
